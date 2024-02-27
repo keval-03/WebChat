@@ -11,6 +11,9 @@ const Login=()=>{
     const handleSubmit=async(e)=>{  
 
         e.preventDefault();
+        if(err){
+            setErr(false);
+        }
 
         const email=e.target[0].value;
         const password=e.target[1].value;
