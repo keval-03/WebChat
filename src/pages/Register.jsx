@@ -89,7 +89,7 @@ const Register=()=>{
                     <button>Sign Up</button>
                     {err && <span>Something went Wrong!!</span>}
                 </form>
-                <p>Already have an account? <Link to="/register">Login</Link></p>
+                <p>Already have an account? <Link to="/login">Login</Link></p>
             </div>
         </div>
     )
